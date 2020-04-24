@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.top-container {
+  background-color: #d3f6f3;
+  padding-top: 100px;
+  position: relative;
+  margin: 0 0 100px 0;
+}
+
+.bottom-container {
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: #d3f6f3;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: relative;
+  left: 300px;
+}
+
+.mountain {
+  position: relative;
+}
+
+.bottom-cloud {
+  position: relative;
+  right: 300px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.baseball {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-bottom: 20%
+}
+
+.football {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.hobby-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.project-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.project-image-1 {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.project-image-2 {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.project-2-text {
+  margin-left: 20%;
+}
+
+.project-image-1:hover {
+	filter: brightness(.75);
+}
+
+.project-image-2:hover {
+	filter: brightness(.75);
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
